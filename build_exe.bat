@@ -1,7 +1,7 @@
 @echo off
-echo Building STMR File Creator executable...
+echo Building Jellyfin .strm File Generator executable...
 pip install pyinstaller
-pyinstaller --onefile --noconsole stmr_file_creator.py
+pyinstaller --onefile --noconsole jellyfin_strm_generator.py
 echo.
 echo Build complete! The executable can be found in the "dist" folder.
 pause
